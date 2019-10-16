@@ -19,8 +19,8 @@ class Dog
   end
   
   def self.print_all
-      @@all.find do |dog|
-        dog.name == name
+      @@all.each do |dog|
+        
     end
   end  
 end
